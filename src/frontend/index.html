@@ -133,7 +133,7 @@
         targetContainer.appendChild(assistantTemplateClone);
         messageDiv.scrollIntoView();
 
-        console.log({ message: message, option: option })
+        console.log({"message": message, "option": option })
 
         const response = await fetch("/chat", {
           method: "POST",
